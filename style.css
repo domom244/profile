@@ -1,13 +1,13 @@
 body {
-    background-color: #54c1cf;
-    font-family: Arial, sans-serif;
+    background-color: rgb(164, 204, 217);
+    font-family: "Playfair Display", serif;
     margin: 0;
     padding: 20px;
 }
 
 h1,
 h2 {
-    color: #ffffff;
+    color: #F5F0CD;
     text-align: center;
 }
 
@@ -26,7 +26,7 @@ nav {
 nav a {
     width: 20%;
     text-decoration: none;
-    color: #a2fff0;
+    color: #EBFFD8
 }
 
 nav ul li {
@@ -39,7 +39,7 @@ nav ul li {
 }
 
 nav ul li:hover {
-    background-color: #ffffff;
+    background-color: #E3CAA5;
     color: #54c1cf;
     border-radius: 5px;
 }
@@ -50,4 +50,19 @@ nav ul li:hover {
 .center-section ul {
     display: inline-block;
     text-align: left;
+}
+
+#friends{
+    border:2px dashed #EBFFD8;
+    background-color: #F2E2B1;
+}
+
+#diary{
+    border:2px dashed #F5F0CD;
+    background-color: #183B4E;
+}
+
+#gallery{
+    border:2px dashed #FAF6E9;
+    background-color: #AAB99A;
 }
