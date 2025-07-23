@@ -66,3 +66,12 @@ nav ul li:hover {
     border:2px dashed #FAF6E9;
     background-color: #AAB99A;
 }
+
+button{
+    position: fixed;
+    bottom: 20px;
+    float: right;
+    right: 5%;
+    left: 95%;
+    padding: .5px;
+}
